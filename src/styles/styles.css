@@ -1,0 +1,51 @@
+@import url(./global.css);
+
+body{
+    background-color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-1);
+}
+
+.nav-header ul li .active{
+    color:  var(--color-white);
+}
+
+.container-btn-header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-login{
+    text-decoration: none;
+    padding: 10px 24px;
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+}
+
+.btn-primary{
+    text-decoration:none ;
+    padding: 10px 24px;
+    border-radius: 40px;
+    background-color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    color: #000;
+}
