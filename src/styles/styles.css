@@ -85,7 +85,8 @@ h1{
 .content-main p{
     color: var(--color-gray1);
     font-family: var( --font-family-inter);
-    width: 583px;
+    font-size: var(--font-size-subtitle);
+    width: 584px;
 }
 
 .container-btn-main{
