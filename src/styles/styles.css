@@ -422,3 +422,49 @@ h1{
     font-size: var(--font-size-text-1);
     font-weight: 400px;
 }
+
+.section-revolutinary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0px;
+}
+
+.section-revolutinary span{
+    color: var(--color-green);
+    border: var(--color-gray-3) solid 1px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-2);
+}
+
+.section-revolutinary h2{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title-2);
+    text-align: center;
+    font-weight: 400px;
+    width: 878px;
+    text-transform: capitalize;
+}
+
+.section-revolutinary p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-button);
+    width: 664px;
+    text-align: center;
+    line-height: 140%;
+}
+
+.section-revolutinary a{
+    background-color: var(--color-green);
+    padding: 14px 24px;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-button);
+}
+
